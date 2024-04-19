@@ -1,0 +1,46 @@
+program -calculation program in java 
+public class calculator {
+  public static void main(string[] args){
+    scanner in = new scanner(system.in);
+int ans=0;
+while (true) {
+system.out.println("enter the operation");
+char op=in.next().trim().charAt(0);
+system.out.println();
+if(op == '+'|| op == '-'|| op == '*'|| op == '/' || op == '%') {
+system.out.println("enter two numbers :");
+int num1 = in.nextInt();
+int num2 = in.nextInt();
+system.out.println();
+
+if (op == '+'){
+ans = num1 + num2;
+}
+if (op == '-'){
+ans = num1 - num2;
+}
+if (op == '*'){
+ans = num1 * num2;
+}
+if (op == '/'){
+ans == num1/ num2;
+}
+if(op == '%'){
+ans == num1 % num2; {
+  break;
+} 
+} 
+} else if(op == 'X' || op == 'X'){
+break ;
+} else {
+system.out.println("invalid operation!!");
+}
+}
+system.out.println(ans);
+  }
+}
+
+  
+
+
+
